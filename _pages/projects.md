@@ -1,9 +1,9 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
+title: Projects
+permalink: 
+description: This is work in progress. Please come back later. :)
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
