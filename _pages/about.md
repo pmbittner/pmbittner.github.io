@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello there, I am a PhD student at the [University of Ulm](https://www.uni-ulm.de/en/in/sp/team/paul-maximilian-bittner/) and working at the [University of Paderborn](https://www.uni-paderborn.de/person/105026) with [Thomas Thüm](https://www.tu-braunschweig.de/isf/team/thuem) from the Technical University Braunschweig.<i><font size="1" color="gray">its complicated.</font></i>
+Hello there, I am a PhD student at the [University of Ulm](https://www.uni-ulm.de/en/in/sp/team/paul-maximilian-bittner/) and working at the [University of Paderborn](https://www.uni-paderborn.de/person/105026) with [Thomas Thüm](https://www.tu-braunschweig.de/isf/team/thuem) from the Technical University Braunschweig. <i><font size="1" color="gray">its complicated.</font></i>
 
 In my research, I apply programming language methods to software engineering research problems. I am a strong believer in formal methods, as they are invaluable in understanding and specifying exactly what a research problem is about, opening multiple avenues to study and finally solve it. In my experience, finding the right model or reference frame for a problem solves it almost for free.
 
