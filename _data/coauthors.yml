@@ -1,34 +1,99 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"schultheiß":
+  - firstname: ["Alexander", "A."]
+    url: https://alexanderschultheiss.github.io
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"schultheiss":
+  - firstname: ["Alexander", "A."]
+    url: https://alexanderschultheiss.github.io
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"thum":
+  - firstname: ["Thomas", "T."]
+    url: https://www.tu-braunschweig.de/isf/team/thuem
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"kehrer":
+  - firstname: ["Timo", "T."]
+    url: https://www.inf.unibe.ch/ueber_uns/personen/seg/prof_dr_kehrer_timo/index_ger.html
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"moosherr":
+  - firstname: ["Benjamin", "B."]
+    url: https://github.com/ibbem
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"krieter":
+  - firstname: ["Sebastian", "S."]
+    url: https://www.tu-braunschweig.de/isf/team/krieter
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"greiner":
+  - firstname: ["Sandra", "S."]
+    url: https://sandragreiner.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"sundermann":
+  - firstname: ["Chico", "C."]
+    url: https://www.uni-ulm.de/in/sp/team/chico-sundermann/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"teixeira":
+  - firstname: ["Leopoldo", "L."]
+    url: https://leopoldomt.github.io/
+
+"young":
+  - firstname: ["Jeffrey", "Jeffrey M.", "J. M."]
+    url: https://github.com/doyougnu
+
+"ataei":
+  - firstname: ["Parisa", "P."]
+    url: https://github.com/pataei
+
+"walkingshaw":
+  - firstname: ["Eric", "E."]
+    url: https://eric.walkingshaw.net/
+
+"tinnes":
+  - firstname: ["Christof", "C."]
+    url: https://www.se.cs.uni-saarland.de/people/tinnes.php
+
+"guthing":
+  - firstname: ["Lukas", "L."]
+    url: https://tva.kastel.kit.edu/team_guething.php
+
+"boll":
+  - firstname: ["Alexander", "A."]
+    url: https://seg.inf.unibe.ch/people/alex/
+
+"schaefer":
+  - firstname: ["Ina", "I."]
+    url: https://tva.kastel.kit.edu/team_schaefer.php
+
+"grunske":
+  - firstname: ["Lars", "L."]
+    url: https://www.informatik.hu-berlin.de/de/Members/lars-grunske
+
+"kappel":
+  - firstname: ["Moritz", "M."]
+    url: https://graphics.tu-bs.de/people/kappel
+
+"tauscher":
+  - firstname: ["Jan-Philipp", "J. P."]
+    url: https://graphics.tu-bs.de/people/tauscher
+
+"grogorick":
+  - firstname: ["Steve", "S."]
+    url: https://github.com/grogorick
+
+"kassubeck":
+  - firstname: ["Marc", "M."]
+    url: https://graphics.tu-bs.de/people/kassubeck
+
+"muhlhausen":
+  - firstname: ["Moritz", "M."]
+    url: https://graphics.tu-bs.de/people/muhlhausen
+
+"castillo":
+  - firstname: ["Susana", "S."]
+    url: https://graphics.tu-bs.de/people/castillo
+
+"richardt":
+  - firstname: ["Christian", "C."]
+    url: https://richardt.name/
+
+"magnor":
+  - firstname: ["Marcus", "M."]
+    url: https://graphics.tu-bs.de/people/magnor
