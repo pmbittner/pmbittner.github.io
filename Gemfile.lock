@@ -19,6 +19,7 @@ GEM
       latex-decode (~> 0.0)
       racc (~> 1.7)
     bigdecimal (3.1.8)
+    cgi (0.4.1)
     citeproc (1.0.10)
       namae (~> 1.0)
     citeproc-ruby (1.1.14)
@@ -45,6 +46,8 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
+    erb (4.0.4)
+      cgi (>= 0.3.3)
     eventmachine (1.2.7)
     execjs (2.9.1)
     fast-stemmer (1.0.2)
@@ -250,6 +253,7 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn
   css_parser
+  erb
   feedjira
   httparty
   jekyll
