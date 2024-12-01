@@ -1,11 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: Notable Repositories
+title: Repositories
 description:
 nav: true
 nav_order: 4
 ---
+
+Here, I showcase some of my notable Github repositories.
 
 {% if site.data.repositories.github_repos %}
 
