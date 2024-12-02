@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Projects
-permalink: 
-description: This is work in progress. Please come back later. :)
-nav: false
+permalink: /projects/
+description: Here I showcase some of my work related as well as private projects. 🙂
+nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+related_publications: true
 ---
 
 <!-- pages/projects.md -->
