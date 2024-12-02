@@ -46,6 +46,7 @@
       {% endif %}
       {% if include['image-rendering']
          or include['object-fit']
+         or include['background-color']
          or include['min-width']
          or include['min-height']
          or include['max-width']
@@ -57,7 +58,9 @@
           {% endif %}
           {% if include['object-fit'] %}
             object-fit: {{ include.object-fit }};
-            background-color: white;
+          {% endif %}
+          {% if include['background-color'] %}
+            background-color: {{ include.background-color }};
           {% endif %}
           {% if include['min-width'] %}
             min-width: {{ include.min-width }};
