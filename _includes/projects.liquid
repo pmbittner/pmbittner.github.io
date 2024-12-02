@@ -19,8 +19,8 @@
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
+        {% if project.github %}
+          <div class="row ml-1 mr-1 p-0">
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
@@ -32,8 +32,16 @@
                 </span>
               {% endif %}
             </div>
+          </div>
+        {% endif %}
+          {% if project.publications %}
+            <p class="card-text">Related Publications:</p>
+            <ul>
+            {% for publication in project.publications %}
+              <li>{% cite publication.key %}</li>
+            {% endfor %}
+            </ul>
           {% endif %}
-        </div>
       </div>
       {% comment %}
       Find the color of your programming language here:
