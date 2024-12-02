@@ -7,7 +7,7 @@ img-rendering: "pixelated"
 img-background: "black"
 redirect: https://github.com/pmbittner/PaxEngine3
 importance: 2
-category: fun
+category: Graphics & Game Engineering
 language: C++
 ---
 

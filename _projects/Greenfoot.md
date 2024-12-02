@@ -5,7 +5,7 @@ description: At the beginning my programming career, I was an active member of t
 img:
 redirect: https://greenfoot.org/users/13892
 importance: 999
-category: fun
+category: Graphics & Game Engineering
 language: Java
 ---
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Here I showcase some of my work related as well as private projects. 🙂
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Software Variability, Graphics & Game Engineering]
 horizontal: false
 related_publications: true
 ---
