@@ -66,4 +66,4 @@ So what's in here for you?
 {% include repository/repo.liquid repository="SoftVarE-Group/BroT" %}
 </div>
 
-_Oh, and BroT means Branch Of study Tool. (I wanted a cool name for the FOSD Cool Wall (scroll down on [Christian Kästner's website](https://www.cs.cmu.edu/~ckaestne/) to learn more about it)_
+_Oh, and BroT means Branch Of study Tool. (I wanted a cool name for the FOSD Cool Wall. Scroll down on [Christian Kästner's website](https://www.cs.cmu.edu/~ckaestne/) to learn more about it.)_
