@@ -44,8 +44,17 @@
       {% else %}
         height="auto"
       {% endif %}
-      {% if include['object-fit'] or include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
+      {% if include['image-rendering']
+         or include['object-fit']
+         or include['min-width']
+         or include['min-height']
+         or include['max-width']
+         or include['max-height']
+      %}
         style="
+          {% if include['image-rendering'] %}
+            image-rendering: {{ include.image-rendering }};
+          {% endif %}
           {% if include['object-fit'] %}
             object-fit: {{ include.object-fit }};
             background-color: white;
