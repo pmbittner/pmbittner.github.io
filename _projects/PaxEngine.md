@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PaxEngine 3
-description: a game engine built around Polypropylene with a plugin framework
+description: a plugin-based game engine built around Polypropylene
 img: assets/img/PaxEngine3_128.png
 img-rendering: "pixelated"
 img-background: "black"
