@@ -44,8 +44,12 @@
       {% else %}
         height="auto"
       {% endif %}
-      {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
+      {% if include['object-fit'] or include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
         style="
+          {% if include['object-fit'] %}
+            object-fit: {{ include.object-fit }};
+            background-color: white;
+          {% endif %}
           {% if include['min-width'] %}
             min-width: {{ include.min-width }};
           {% endif %}
