@@ -442,6 +442,23 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
+# Custom variables
+# -----------------------------------------------------------------------------
+
+# These are the Github colors for programming languages.
+# I use them to highlight programming languages on my Projects page.
+# Make sure that the color is a string literal "..."!
+langcolors:
+  - lang: Agda
+    color: "#315665"
+  - lang: Java
+    color: "#b07219"
+  - lang: C++
+    color: "#f34b7d"
+  - lang: Haskell
+    color: "#5e5086"
+
+# -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 

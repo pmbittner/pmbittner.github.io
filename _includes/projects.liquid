@@ -35,6 +35,26 @@
           {% endif %}
         </div>
       </div>
+      {% comment %}
+      Find the color of your programming language here:
+      https://github.com/ozh/github-colors/blob/master/colors.json
+      {% endcomment %}
+      {% if project.language %}
+        <div style="width: 60px;
+                    height: 30px;
+                    line-height: 30px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: white;
+                    background: {{site.langcolors | where: 'lang', project.language | map: 'color' | first}};
+                    border-radius: 0px 0px 0px 4px;
+                    user-select: none">
+          {{project.language}}
+        </div>
+      {% endif %}
     </div>
   </a>
 </div>
