@@ -6,7 +6,7 @@ img: assets/img/SandwichCCC.png
 img-background: "#eff1f5"
 importance: 1
 redirect: https://github.com/VariantSync/Vatras
-category: Software Variability
+category: Software Variability and Configuration
 related_publications: true
 language: Agda
 publications:
