@@ -24,23 +24,23 @@ So I started working on this in terms of a project thesis, which later turned ou
 
 1. ... develop a text-based domain-specific language (DSL) with editor support in Eclipse to specify branches of study. The DSL featured german keywords so that the administrative staff could write their own branches (which of course _never_ happened). Below is a small excerpt for the branch of `Big Data Management`, one of the simplest branches of study. Other branches were much more involved and the DSL also featured ways to specify the set of courses and their credit points and so on.
   ```java
-  Studiengang "Computer Science"
-    Studienrichtung "Branch Big Data Management"
-      Pflicht
-        "Relational Data Bases II"
-        "Data Warehousing & Data Mining Techniques"
-        "Master Thesis Information Systems"
+	Studiengang "Computer Science"
+		Studienrichtung "Branch Big Data Management"
+			Pflicht
+				"Relational Data Bases II"
+				"Data Warehousing & Data Mining Techniques"
+				"Master Thesis Information Systems"
 
-      Wahlpflicht 30 CP
-        "Project Thesis Information Systems"
-        "Seminar Informationssysteme"
-        "Digital Libraries"
-        "Spatial Databases and Geo-Information Systems"
-        "Distributed Data Management"
-        "Wissensbasierte Systeme und deduktive Datenbanksysteme"
-        "Multimedia-Datenbanken"
-        "Information Retrieval & Web Search"
-        "Ausgewählte Themen der Informationssysteme"
+			Wahlpflicht 30 CP
+				"Project Thesis Information Systems"
+				"Seminar Informationssysteme"
+				"Digital Libraries"
+				"Spatial Databases and Geo-Information Systems"
+				"Distributed Data Management"
+				"Wissensbasierte Systeme und deduktive Datenbanksysteme"
+				"Multimedia-Datenbanken"
+				"Information Retrieval & Web Search"
+				"Ausgewählte Themen der Informationssysteme"
   ```
 
 2. ... develop a compiler that converts expressions of my DSL to graphical feature models. The idea was that in the DSL, it would be easy to specify constraints where you have to select a subset of courses to reach a certain amount of credit points (`Wahlpflicht`), where it is hard to to the same in boolean logic - causing an exponential blowup in the worst case. Indeed, in the following feature model, the second constraint is cut off (`...`) because it is way too long.
