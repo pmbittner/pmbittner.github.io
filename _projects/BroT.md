@@ -52,15 +52,17 @@ Maybe I over-engineered this a bit but for sure it was fun.
 
 In the end, the compilation and configuration did not scale well because of the aforementioned combinatorial explosion. While I could compile all branches, configuring some of them was just not feasible because the formulas were just too massive for the SAT solver. Using a better language such as higher-order logic and SMT solvers would have been more appropriate I guess but we wanted to see if we could reuse the FeatureIDE tooling for this particular problem without having to develop all the infrastructure from ground up.
 
-So what's in here for you?
-- The **compilation process** is outlined in detail in our **paper** {% cite BTS:SEFM19 %}. Here, we also explain how to encode at-most-k constraints based on a range of encodings from the literature, and we also present our own **meta at-most-k encoding**.
-- If you are interested in **reusing the encoding implementation**, please check out our example repository on how to use the Java library:
+## So what's in here for you?
+
+The **compilation process** is outlined in detail in our **paper** {% cite BTS:SEFM19 %}. Here, we also explain how to encode at-most-k constraints based on a range of encodings from the literature, and we also present our own **meta at-most-k encoding**.
+
+If you are interested in **reusing the encoding implementation**, please check out our example repository on how to use the Java library:
 
 <div class="row justify-content-sm-center">
 {% include repository/repo.liquid repository="SoftVarE-Group/BroTLibraryExample" %}
 </div>
 
-- If you are interested in the **DSL**, the **compiler implementation**, or the **configuration tool**, please head to our official BroT repository:
+If you are interested in the **DSL**, the **compiler implementation**, or the **configuration tool**, please head to our official BroT repository:
 
 <div class="row justify-content-sm-center">
 {% include repository/repo.liquid repository="SoftVarE-Group/BroT" %}
