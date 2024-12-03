@@ -5,7 +5,7 @@ description: variability-aware source code differencing and large scale empirica
 img: assets/img/DiffDetective.png
 img-background: "white"
 importance: 2
-category: Software Variability and Configuration
+category: Software Variability & Configuration
 related_publications: true
 language: Java
 publications:

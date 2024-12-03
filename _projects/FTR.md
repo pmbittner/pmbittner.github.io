@@ -6,7 +6,7 @@ img: assets/img/FeatureTraceRecording.png
 img-background: "white"
 importance: 3
 redirect: https://variantsync.github.io/FeatureTraceRecording/
-category: Software Variability and Configuration
+category: Software Variability & Configuration
 related_publications: true
 language: Haskell
 publications:

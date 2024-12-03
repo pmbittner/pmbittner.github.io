@@ -5,7 +5,7 @@ description: encoding at-most-k constraints in boolean logic to help students in
 img: assets/img/BroT/helpdesk.png
 img-background: "white"
 importance: 4
-category: Software Variability and Configuration
+category: Software Variability & Configuration
 related_publications: true
 language: Java
 publications:
