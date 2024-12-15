@@ -131,3 +131,6 @@
   </div>
   {% include scripts/wechatModal.liquid %}
 {% endif %}
+{% if site.archidekt_id %}
+  <a href="https://archidekt.com/search/decks?ownerUsername={{ site.archidekt_id }}" title="Archidekt"><i class="fa-solid fa-hat-wizard"></i></a>
+{% endif %}
