@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>PhD student, compiler engineer, theorem prover, and trading card game enthusiast</i>
+subtitle: <i>domain specific languages, formal specifications, theorem proving, trading card games</i>
 
 profile:
   align: left
