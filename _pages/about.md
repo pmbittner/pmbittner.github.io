@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>software engineering and programming languages research, domain specific languages, formal specifications, theorem proving, software variability, trading card games</i>
+subtitle: <i>SE+PL research, domain specific languages, denotational design, theorem proving, software variability, trading card games</i>
 
 profile:
   align: left
