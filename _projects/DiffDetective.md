@@ -19,7 +19,7 @@ publications:
     <div class="col-sm-2 mt-3 mt-md-0">
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/DiffDetective.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/DiffDetective.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2 mt-3 mt-md-0">
     </div>
