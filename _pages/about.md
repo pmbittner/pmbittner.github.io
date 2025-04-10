@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hello there,
-I am a PhD student at the [University of Ulm](https://www.uni-ulm.de/en/in/sp/team/paul-maximilian-bittner/) and working as a researcher at the Technical University Braunschweig with [Thomas Thüm](https://www.tu-braunschweig.de/isf/team/thuem).
+I am a PhD student at the [University of Ulm](https://www.uni-ulm.de/en/in/sp/team/paul-maximilian-bittner/) and working as a researcher at the [Technical University Braunschweig](https://www.tu-braunschweig.de/isf/team/bittner) with [Thomas Thüm](https://www.tu-braunschweig.de/isf/team/thuem).
 During the summer semester of 2024, I also worked at the [University of Paderborn](https://www.uni-paderborn.de/person/105026).
 
 In my research, I apply programming language methods to software engineering research problems. I am a strong believer in formal methods, as they are invaluable in understanding and specifying exactly what a research problem is about, opening multiple avenues to study and finally solve it. In my experience, finding the right specification and point of view for a problem solves it almost for free.
