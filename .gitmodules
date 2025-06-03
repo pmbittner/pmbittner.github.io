@@ -1,0 +1,3 @@
+[submodule "BibPax"]
+	path = BibPax
+	url = git@github.com:pmbittner/BibPax.git
