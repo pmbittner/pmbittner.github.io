@@ -117,6 +117,20 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.with_cv %}
+            <li class="nav-item">
+              <a class="nav-link" href="/assets/cv/cv-bittner.pdf">
+                CV
+              </a>
+            </li>
+          {% endif %}
+          {% if site.with_resume %}
+            <li class="nav-item">
+              <a class="nav-link" href="/assets/cv/resume-bittner.pdf">
+                Resume
+              </a>
+            </li>
+          {% endif %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
