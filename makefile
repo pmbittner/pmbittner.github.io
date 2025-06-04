@@ -14,3 +14,10 @@ clean:
 gemset.nix:
 	nix-shell -p bundler -p bundix --run 'bundler update; bundler lock; bundler package --no-install --path vendor; bundix -l; rm -rf vendor .bundle'
 
+# This generates the _bibliography/papers.bib file that is used as source for the website's bibliographical data.
+generate-papers:
+	nix-shell -p python3Packages.bibtexparser --run \
+	  "python _bibliography/generate.py \
+	     BibPax/papers.bib \
+	     BibTags \
+	     _bibliography/papers.bib"
