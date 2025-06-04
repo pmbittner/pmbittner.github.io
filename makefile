@@ -1,3 +1,5 @@
+.PHONY: run clean
+
 # Run this and will launch a local server that hosts the website.
 # We will connect with firefox to it.
 run: gemset.nix
