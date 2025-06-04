@@ -1,3 +1,6 @@
 [submodule "BibPax"]
 	path = BibPax
 	url = git@github.com:pmbittner/BibPax.git
+[submodule "BibTags"]
+	path = BibTags
+	url = git@github.com:TUBS-ISF/BibTags.git
