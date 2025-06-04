@@ -5,6 +5,11 @@ import os
 from calendar import month_name
 from typing import List
 
+# do not show a "BIB" button for these entries on the website
+NO_BIB = [
+    "Bittner25",
+]
+
 FIELDS_TO_DELETE = [
     "website", "badges", "renamedfrom"
 ]
@@ -61,7 +66,8 @@ def compile(entries):
             if delfield in entry:
                 entry.pop(delfield)
         # Add the "bibtex_show" attribute so that people can download the bibtex code on our website.
-        entry["bibtex_show"] = ""
+        if entry['ID'] not in NO_BIB:
+            entry["bibtex_show"] = ""
 
     return new_entries
 
