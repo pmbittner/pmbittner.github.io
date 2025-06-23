@@ -8,11 +8,11 @@
 
 "thum":
   - firstname: ["Thomas", "T."]
-    url: https://www.tu-braunschweig.de/isf/team/thuem
+    url: https://thomas.thüm.de
 
 "kehrer":
   - firstname: ["Timo", "T."]
-    url: https://www.inf.unibe.ch/ueber_uns/personen/seg/prof_dr_kehrer_timo/index_ger.html
+    url: https://seg.inf.unibe.ch/team/timo-kehrer/
 
 "moosherr":
   - firstname: ["Benjamin", "B."]
@@ -56,7 +56,7 @@
 
 "boll":
   - firstname: ["Alexander", "A."]
-    url: https://seg.inf.unibe.ch/people/alex/
+    url: https://seg.inf.unibe.ch/team/alexander-boll/
 
 "schaefer":
   - firstname: ["Ina", "I."]
