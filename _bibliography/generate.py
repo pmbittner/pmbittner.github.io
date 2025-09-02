@@ -7,7 +7,7 @@ from typing import List
 
 # do not show a "BIB" button for these entries on the website
 NO_BIB = [
-    "Bittner25",
+    # "Bittner25",
 ]
 
 FIELDS_TO_DELETE = [
