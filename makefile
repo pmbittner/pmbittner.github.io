@@ -6,9 +6,11 @@ run: gemset.nix
 	(sleep 4s ; firefox "localhost:4000") &
 	nix-shell -p bundler -p jupyter --run "bundle exec jekyll serve"
 
+# Run this when some dependencies broke.
+repair:
+	rm -rf ~/.local/share/gem/ruby/3.3.0
+
 clean:
-#	Run this when some dependencies broke.
-#	rm -rf ~/.local/share/gem/ruby/3.3.0
 	rm -f gemset.nix
 
 gemset.nix:
