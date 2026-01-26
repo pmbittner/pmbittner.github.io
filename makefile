@@ -4,7 +4,7 @@
 # We will connect with firefox to it.
 run: gemset.nix
 	(sleep 4s ; firefox "localhost:4000") &
-	nix-shell -p bundler -p jupyter --run "bundle exec jekyll serve"
+	nix-shell -p bundler -p jupyter -p imagemagick_light --run "bundle exec jekyll serve"
 
 # Run this when some dependencies broke.
 repair:
