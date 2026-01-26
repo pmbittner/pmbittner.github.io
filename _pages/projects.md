@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [Software Variability & Configuration, Graphics & Game Engineering, Tinkering and Open Source Contributions]
+display_categories: [Software Variability & Configuration, Graphics & Game Engineering, Tinkering & Open Source Contributions]
 horizontal: false
 related_publications: true
 ---

@@ -6,6 +6,6 @@ img: assets/img/dotfiles.png
 img-background: "#eff1f5"
 importance: 1
 redirect: https://github.com/pmbittner/dotfiles
-category: Tinkering and Open Source Contributions
+category: Tinkering & Open Source Contributions
 related_publications: false
 ---

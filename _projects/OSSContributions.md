@@ -4,7 +4,7 @@ title: Open-Source Contributions
 description: my contributions to open-source software
 img-background: "white"
 importance: 2
-category: Tinkering and Open Source Contributions
+category: Tinkering & Open Source Contributions
 ---
 
 Apart from my own open-source projects, I have a few contributions to some other open-source repositories.
