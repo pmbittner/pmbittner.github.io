@@ -27,7 +27,7 @@ back_to_top: false # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: catpuccin_latte # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: catppuccin_latte # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: one_dark_pro # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
