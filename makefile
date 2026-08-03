@@ -23,3 +23,9 @@ generate-papers:
 	     BibPax/papers.bib \
 	     BibTags \
 	     _bibliography/papers.bib"
+
+update:
+	git checkout upstream/main -- .github/workflows
+	git checkout upstream/main -- package.json Gemfile .prettierignore .prettierrc purgecss.config.js
+	git checkout upstream/main -- .dockerignore Dockerfile docker-compose-slim.yml docker-compose.yml .devcontainer
+	git checkout upstream/main -- bin
